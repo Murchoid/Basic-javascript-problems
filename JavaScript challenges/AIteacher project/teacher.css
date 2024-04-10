@@ -1,0 +1,86 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    background-color: #222;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#content{
+    background-color: white;
+    border: 20px solid burlywood;
+    border-radius: 50px;
+    width: 800px;
+    height: 400px;
+    color: blue;
+    font-style: italic;
+    font-weight: 700;
+}
+h1{
+    color: #222;
+    font-variant: small-caps;
+    margin-left: 10%;
+}
+
+#this-table{
+    color: blue;
+}
+#base, #multiplier{
+    color: blue;
+    font-weight: 800;
+}
+#ans{
+    color: skyblue;
+    font-weight: 800;
+    width: 50px;
+    background-color: #222;
+}
+input{
+    border-radius: 5px;
+    padding: 5px;
+}
+#tables{
+    margin-left: 10%;
+}
+#comment-visible{
+    color: darkorange;
+}
+
+#comment-invisible{
+    color: darkorange;
+    visibility: hidden;
+}
+
+#comment-wrong{
+    color: green;
+}
+#nav-but{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#submit{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(182, 140, 90);
+    color: white;
+    border: 1px solid white;
+    font-size: large;
+}
+
+#next{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(182, 140, 90);
+    color: white;
+    border: 1px solid white;
+    font-size: large;
+}
+
+#submit:hover{
+    cursor: pointer;
+}
+#next:hover{
+    cursor: not-allowed;
+}
